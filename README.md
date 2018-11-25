@@ -3,15 +3,16 @@
 ### install
 
 ```shell
+#跳过安装 chromium 步骤, 自行配置 executablePath
+#https://www.chromium.org/getting-involved/dev-channel
 npm i --ignore-scripts
 
-nrm use cnpm
+#https://github.com/cnpm/cnpmjs.org/issues/1246
+npm config set puppeteer_download_host=https://storage.googleapis.com.cnpmjs.org
 npm i
 ```
 
-`https://www.chromium.org/getting-involved/dev-channel`
-
 ### TODO
 
-[ ] new tab
-[ ] page navigation
+- new tab
+- page navigation

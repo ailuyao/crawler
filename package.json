@@ -6,7 +6,8 @@
   "scripts": {
     "bili": "node puppeteer/bili.js",
     "music": "node puppeteer/music.js",
-    "weibo": "node puppeteer/weibo.js"
+    "weibo": "node puppeteer/weibo.js",
+    "task": "node task.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,7 @@
     "chalk": "^2.4.1",
     "cheerio": "^1.0.0-rc.2",
     "ora": "^3.0.0",
-    "puppeteer": "^1.7.0",
-    "superagent": "^3.8.3"
+    "puppeteer": "^1.10.0",
+    "superagent": "^4.0.0"
   }
 }
